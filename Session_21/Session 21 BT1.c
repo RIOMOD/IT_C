@@ -1,7 +1,7 @@
 #include <stdio.h>
-
-int main()
-{
+#include <stdlib.h>
+int main(){
+    system("color a");
     char str[1000];
     printf("Nhap chuoi: ");
     fgets(str, 1000, stdin);
