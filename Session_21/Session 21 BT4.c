@@ -1,7 +1,7 @@
 #include <stdio.h>
-
-int main()
-{
+#include <stdlib.h>
+int main(){
+    system ("color a");
     FILE *f = fopen("bt01.txt", "r");
     char str[100];
     fgets(str, 100, f);
