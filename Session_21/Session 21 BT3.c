@@ -1,6 +1,7 @@
 #include <stdio.h>
-int main()
-{
+#include <stdlib.h>
+int main(){
+    system ("color a");
     FILE *f = fopen("bt01.txt", "a");
     char str[100];
     printf("Nhâp chuỗi: ");
